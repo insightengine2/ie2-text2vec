@@ -6,7 +6,7 @@ env:
 phases:
   install:
     runtime-versions:
-      golang: 1.21
+      golang: 1.22
     commands:
       - go version
       - go get .
